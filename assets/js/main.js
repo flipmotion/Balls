@@ -5,7 +5,10 @@ $(document).ready(function() {
 		}, 1000);
 		return false;
 	});
-	
+	$('.toggle-button').click(function(){
+		$(this).toggleClass('active');
+		$('.header-lvl-2').toggleClass('active');
+	});
 	/*$("#call").on('hidden.bs.modal', function (e) {
 		$('.form-send')[2].reset();
 	});
