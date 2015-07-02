@@ -73,7 +73,7 @@ $(document).ready(function() {
 			.disable(['rightMouseButtonMagnifier' , 'scrollZoom'])
 			myPlacemark = new ymaps.Placemark([55.770579, 37.6559459], {
 				hintContent: [
-				'<div class=\'map_holder\'><h3 class=\'map_header\'>Контакты<\/h3><div class=\'map_address\'>пл. Свободы, 2<\/div><div class=\'map_phone\'><div class=\'icon\'><\/div>8 (831) 428-98-31<\/div><div class=\'map_work_time\'><div class=\'icon\'><\/div>Ежедневно с 9-00 до 20-00<p>Салон оптики<\/p><\/div><\/div>'
+				''
 			].join(''),
 				balloonContentBody: [
 				'<div class=\'map_holder\'><div class=\'map_header\'><p>Контакты</p><\/div><div class=\'map_address\'><div class=\'icon\'><\/div><p>пл. Свободы, 2г. Москва, Рязанский проспект д 2/23</p><\/div><div class=\'map_phone\'><div class=\'icon\'><\/div><p><strong>8 (495) 105-95-03</strong></p><p><strong>8 (800) 505-16-03</strong></p><p>(Бесплатно по Росиии)</p><\/div><div class=\'map_date\'><div class=\'icon\'><\/div><p>Пн-Пт с 08:00 до 17:00</p><\/div><div class=\'map_mail\'><div class=\'icon\'><\/div><p><a href="mailto:shop@wood-game.ru">shop@wood-game.ru</a></p><\/div><\/div>'
